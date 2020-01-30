@@ -10,7 +10,7 @@ public class Ball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Rigidbody2D>().AddForce(Random.insideUnitCircle.normalized * Speed * 20);
+        GetComponent<Rigidbody2D>().AddForce((Random.insideUnitCircle.normalized) * Speed * 30);
     }
     void Update()
     {
@@ -20,11 +20,11 @@ public class Ball : MonoBehaviour
     {
         if(collision.gameObject.name == "Paddle")
         {
-            //Calculate hit Value
+            //Calculate hit Value (aka, the x value we will need to change direction)
             float hitValue = Ricochet(transform.position, collision.transform.position, collision.collider.bounds.size.x);
-            Vector2 Direction = new Vector2(hitValue, 1).normalized;
 
             //Give the ball the direction necessary
+            Vector2 Direction = new Vector2(hitValue, 1).normalized;
             GetComponent<Rigidbody2D>().velocity = Direction * Speed;
         }
         
@@ -33,7 +33,7 @@ public class Ball : MonoBehaviour
     //This function is supposed to replicate the ricochet used in Arkanoid
     private float Ricochet(Vector2 Ball, Vector2 Paddle, float Position)
     {
-        //this should return a certain value that we can use to ricochet properly
+        //this should return an exact x value that we can use to ricochet properly
         return (Ball.x - Paddle.x) / Position;
     }
 }
