@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Block
+  - LaserPower
+  - SlowPower
+  - CatchPower
+  - BreakPower
+  - DisruptionPower
+  - EnlargePower
+  - PlayerPower
   layers:
   - Default
   - TransparentFX
