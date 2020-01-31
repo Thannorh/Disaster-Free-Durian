@@ -10,13 +10,13 @@ public class Ball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Rigidbody2D>().AddForce((Random.insideUnitCircle.normalized) * Speed * 30);
+        GetComponent<Rigidbody2D>().velocity = Vector2.up * Speed / 15;
     }
     void Update()
     {
 
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.name == "Paddle")
         {
@@ -31,7 +31,7 @@ public class Ball : MonoBehaviour
     }
 
     //This function is supposed to replicate the ricochet used in Arkanoid
-    private float Ricochet(Vector2 Ball, Vector2 Paddle, float Position)
+    float Ricochet(Vector2 Ball, Vector2 Paddle, float Position)
     {
         //this should return an exact x value that we can use to ricochet properly
         return (Ball.x - Paddle.x) / Position;
