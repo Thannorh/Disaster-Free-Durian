@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7235355666102536977}
   - component: {fileID: 385700884341411595}
   - component: {fileID: 8821386512179979875}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PinkBlock
   m_TagString: Block
   m_Icon: {fileID: 0}

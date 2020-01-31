@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8990792202561146812}
   - component: {fileID: 2159151195600309158}
   - component: {fileID: 7117741506102584014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RedBlock
   m_TagString: Block
   m_Icon: {fileID: 0}

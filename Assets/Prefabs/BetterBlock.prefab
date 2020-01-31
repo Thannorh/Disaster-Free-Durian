@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -5557490413621250913}
   - component: {fileID: 470423281460474590}
   - component: {fileID: 1848728530865052298}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BetterBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3daaa266414e0f4296492f2a5abcfca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Blockhit: 0
 --- !u!61 &470423281460474590
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5131308230540525255}
   - component: {fileID: 2739733301370059485}
   - component: {fileID: 6428017969924264885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AquaBlock
   m_TagString: Block
   m_Icon: {fileID: 0}

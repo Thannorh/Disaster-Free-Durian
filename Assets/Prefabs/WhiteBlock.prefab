@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: -5744719324344125720}
   - component: {fileID: 5869814825701012210}
   - component: {fileID: 3333879618144525210}
-  m_Layer: 0
-  m_Name: Block
+  m_Layer: 8
+  m_Name: WhiteBlock
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
