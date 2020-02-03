@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : MonoBehaviour
+public class BallScript : MonoBehaviour
 {
 
     //Variables
@@ -18,7 +18,7 @@ public class Ball : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "Paddle")
+        if(collision.gameObject.name == "racket")
         {
             //Calculate hit Value (aka, the x value we will need to change direction)
             float hitValue = Ricochet(transform.position, collision.transform.position, collision.collider.bounds.size.x);
