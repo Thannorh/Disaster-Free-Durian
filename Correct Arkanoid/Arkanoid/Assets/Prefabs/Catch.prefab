@@ -12,7 +12,10 @@ GameObject:
   - component: {fileID: 2427301244658729741}
   - component: {fileID: -5080491172326227997}
   - component: {fileID: -3702089078381480749}
+<<<<<<< HEAD
   - component: {fileID: 5965527369770268682}
+=======
+>>>>>>> 4182889e1b7ce784132f9cd3841f739146502fb9
   m_Layer: 8
   m_Name: Catch
   m_TagString: Untagged

@@ -12,7 +12,10 @@ GameObject:
   - component: {fileID: 5187999299917846795}
   - component: {fileID: 5187999299917846793}
   - component: {fileID: 4729700900467292931}
+<<<<<<< HEAD
   - component: {fileID: -1741024764039238147}
+=======
+>>>>>>> 4182889e1b7ce784132f9cd3841f739146502fb9
   m_Layer: 8
   m_Name: Duplicate
   m_TagString: Untagged

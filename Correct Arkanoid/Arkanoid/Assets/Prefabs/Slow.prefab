@@ -12,7 +12,10 @@ GameObject:
   - component: {fileID: 337458277502274988}
   - component: {fileID: 3479181481798699256}
   - component: {fileID: 5758768808993274714}
+<<<<<<< HEAD
   - component: {fileID: 5373742672114649038}
+=======
+>>>>>>> 4182889e1b7ce784132f9cd3841f739146502fb9
   m_Layer: 8
   m_Name: Slow
   m_TagString: Untagged
