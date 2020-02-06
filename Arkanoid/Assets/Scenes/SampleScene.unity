@@ -152,7 +152,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447238bf1b0ab5f48888feb3bc8fc653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enlarge: {fileID: 0}
+  Enlarge: {fileID: 2623449742720235015, guid: 1aa97f7d4ca3b314c97d26c4a1992bc8, type: 3}
+  Laser: {fileID: 7821849061743029594, guid: 1937e3275d5dc6e46bd017c6351c53db, type: 3}
+  Duplicate: {fileID: 5187999299917846796, guid: c238e5573e6c40f499c4475da9f0a97a,
+    type: 3}
+  Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
+  Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
+  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!61 &73425153
 BoxCollider2D:
@@ -302,6 +308,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &82492540
 SpriteRenderer:
@@ -367,114 +378,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &156424859
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 156424861}
-  - component: {fileID: 156424860}
-  - component: {fileID: 156424862}
-  m_Layer: 0
-  m_Name: Duplicate
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &156424860
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156424859}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d52badbdfac59f245a6e57304d308383, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.07}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &156424861
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156424859}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 215, y: -9.8, z: 0}
-  m_LocalScale: {x: 1, y: 0.91, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 46
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &156424862
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156424859}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 16, y: 7}
-    newSize: {x: 0.16, y: 0.07}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 16, y: 7}
-  m_EdgeRadius: 0
 --- !u!1 &218333108
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,6 +500,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &241645074
 GameObject:
@@ -720,6 +628,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &355574365
 GameObject:
@@ -843,6 +756,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &426632168
 GameObject:
@@ -902,6 +820,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &426632171
 SpriteRenderer:
@@ -1170,6 +1093,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &519420028
 GameObject:
@@ -1311,7 +1239,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447238bf1b0ab5f48888feb3bc8fc653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enlarge: {fileID: 0}
+  Enlarge: {fileID: 2623449742720235015, guid: 1aa97f7d4ca3b314c97d26c4a1992bc8, type: 3}
+  Laser: {fileID: 7821849061743029594, guid: 1937e3275d5dc6e46bd017c6351c53db, type: 3}
+  Duplicate: {fileID: 5187999299917846796, guid: c238e5573e6c40f499c4475da9f0a97a,
+    type: 3}
+  Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
+  Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
+  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!212 &594138993
 SpriteRenderer:
@@ -1499,6 +1433,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &682267327
 GameObject:
@@ -1622,6 +1561,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &819511793
 GameObject:
@@ -1681,6 +1625,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &819511796
 SpriteRenderer:
@@ -1803,7 +1752,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447238bf1b0ab5f48888feb3bc8fc653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enlarge: {fileID: 1549475945}
+  Enlarge: {fileID: 2623449742720235015, guid: 1aa97f7d4ca3b314c97d26c4a1992bc8, type: 3}
+  Laser: {fileID: 7821849061743029594, guid: 1937e3275d5dc6e46bd017c6351c53db, type: 3}
+  Duplicate: {fileID: 5187999299917846796, guid: c238e5573e6c40f499c4475da9f0a97a,
+    type: 3}
+  Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
+  Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
+  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!212 &831477002
 SpriteRenderer:
@@ -1927,6 +1882,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &928481398
 SpriteRenderer:
@@ -2114,6 +2074,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &968772258
 GameObject:
@@ -2173,6 +2138,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &968772261
 SpriteRenderer:
@@ -2359,7 +2329,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447238bf1b0ab5f48888feb3bc8fc653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enlarge: {fileID: 0}
+  Enlarge: {fileID: 2623449742720235015, guid: 1aa97f7d4ca3b314c97d26c4a1992bc8, type: 3}
+  Laser: {fileID: 7821849061743029594, guid: 1937e3275d5dc6e46bd017c6351c53db, type: 3}
+  Duplicate: {fileID: 5187999299917846796, guid: c238e5573e6c40f499c4475da9f0a97a,
+    type: 3}
+  Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
+  Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
+  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!1 &1021349453
 GameObject:
@@ -2393,6 +2369,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1021349455
 BoxCollider2D:
@@ -2516,6 +2497,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1062734567
 BoxCollider2D:
@@ -2639,6 +2625,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1070975819
 BoxCollider2D:
@@ -2762,6 +2753,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1099158645
 BoxCollider2D:
@@ -3019,6 +3015,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &1120005288
 SpriteRenderer:
@@ -3116,6 +3117,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1132174517
 BoxCollider2D:
@@ -3330,6 +3336,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!114 &1162109773
 MonoBehaviour:
@@ -3344,6 +3355,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &1188363086
 GameObject:
@@ -3377,6 +3393,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1188363088
 BoxCollider2D:
@@ -3608,6 +3629,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1238528372
 BoxCollider2D:
@@ -3731,6 +3757,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1338533798
 BoxCollider2D:
@@ -4002,6 +4033,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1419481994
 BoxCollider2D:
@@ -4125,6 +4161,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1422976059
 BoxCollider2D:
@@ -4338,137 +4379,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
---- !u!1 &1549475941
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1549475945}
-  - component: {fileID: 1549475944}
-  - component: {fileID: 1549475943}
-  - component: {fileID: 1549475942}
-  m_Layer: 0
-  m_Name: Enlarge
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!50 &1549475942
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549475941}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 3.5
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!61 &1549475943
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549475941}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 16, y: 7}
-    newSize: {x: 0.16, y: 0.07}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 16, y: 7}
-  m_EdgeRadius: 0
---- !u!212 &1549475944
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549475941}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0e60e169462639b40938b633bc155232, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.07}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1549475945
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549475941}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 261.8, y: 41.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 47
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1602609683
 GameObject:
   m_ObjectHideFlags: 0
@@ -4590,7 +4506,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447238bf1b0ab5f48888feb3bc8fc653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enlarge: {fileID: 0}
+  Enlarge: {fileID: 2623449742720235015, guid: 1aa97f7d4ca3b314c97d26c4a1992bc8, type: 3}
+  Laser: {fileID: 7821849061743029594, guid: 1937e3275d5dc6e46bd017c6351c53db, type: 3}
+  Duplicate: {fileID: 5187999299917846796, guid: c238e5573e6c40f499c4475da9f0a97a,
+    type: 3}
+  Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
+  Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
+  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!1 &1705751621
 GameObject:
@@ -4623,7 +4545,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447238bf1b0ab5f48888feb3bc8fc653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enlarge: {fileID: 0}
+  Enlarge: {fileID: 2623449742720235015, guid: 1aa97f7d4ca3b314c97d26c4a1992bc8, type: 3}
+  Laser: {fileID: 7821849061743029594, guid: 1937e3275d5dc6e46bd017c6351c53db, type: 3}
+  Duplicate: {fileID: 5187999299917846796, guid: c238e5573e6c40f499c4475da9f0a97a,
+    type: 3}
+  Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
+  Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
+  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!61 &1705751623
 BoxCollider2D:
@@ -4773,6 +4701,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &1759024013
 SpriteRenderer:
@@ -4960,6 +4893,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &1803435376
 GameObject:
@@ -5083,6 +5021,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &1825348890
 GameObject:
@@ -5142,6 +5085,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &1825348893
 SpriteRenderer:
@@ -5408,7 +5356,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447238bf1b0ab5f48888feb3bc8fc653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enlarge: {fileID: 0}
+  Enlarge: {fileID: 2623449742720235015, guid: 1aa97f7d4ca3b314c97d26c4a1992bc8, type: 3}
+  Laser: {fileID: 7821849061743029594, guid: 1937e3275d5dc6e46bd017c6351c53db, type: 3}
+  Duplicate: {fileID: 5187999299917846796, guid: c238e5573e6c40f499c4475da9f0a97a,
+    type: 3}
+  Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
+  Slow: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
+  Player: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
   whichpowerup: 0
 --- !u!212 &1866112465
 SpriteRenderer:
@@ -5640,6 +5594,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &1936162320
 SpriteRenderer:
@@ -5737,6 +5696,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1972469273
 BoxCollider2D:
@@ -5886,6 +5850,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enlarge: {fileID: 0}
+  Laser: {fileID: 0}
+  Duplicate: {fileID: 0}
+  Catch: {fileID: 0}
+  Slow: {fileID: 0}
+  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &2039674947
 SpriteRenderer:
