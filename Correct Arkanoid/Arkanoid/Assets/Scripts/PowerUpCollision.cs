@@ -27,11 +27,11 @@ public class PowerUpCollision : MonoBehaviour
         
         if(collision.gameObject.name == "Slow")
         {
-
+            //On ball Script
         }
         else if(collision.gameObject.name == "Enlarge")
         {
-            Object.GetComponent<MeshRenderer>().racket = VausSpacecraftLarge;
+           // Object.GetComponent<MeshRenderer>().racket = VausSpacecraftLarge;
         }
         else if (collision.gameObject.name == "")
         {

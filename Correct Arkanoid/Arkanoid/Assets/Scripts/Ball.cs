@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
-
-        
     // Start is called before the first frame update
     public class Ball : MonoBehaviour
     {
@@ -31,7 +27,10 @@ using UnityEngine;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if(collision.gameObject.name == "Slow")
+        {
+
+        }
 
 
 
