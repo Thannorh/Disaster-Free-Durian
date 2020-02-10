@@ -7,6 +7,10 @@ TagManager:
   - Red Block
   - Blue Block
   - Yellow Block
+  - Orange Block
+  - Green Block
+  - Pink Block
+  - Big Boy Block
   layers:
   - Default
   - TransparentFX

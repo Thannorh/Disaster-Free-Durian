@@ -21,17 +21,29 @@ public class Points : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Yellow Block")
+        if(collision.gameObject.tag == "Orange Block")
         {
-            score += 10;
+            score += 60;
         }
         else if (collision.gameObject.tag == "Blue Block")
         {
-            score += 20;
+            score += 100;
         }
         else if (collision.gameObject.tag == "Red Block")
         {
-            score += 30;
+            score += 90;
+        }
+        else if (collision.gameObject.tag == "Green Block")
+        {
+            score += 80;
+        }
+        else if (collision.gameObject.tag == "Pink Block")
+        {
+            score += 110;
+        }
+        else if (collision.gameObject.tag == "Big Boy Block")
+        {
+            score += 50;
         }
         PointRecord.text = score.ToString();
 
