@@ -27,9 +27,13 @@ using UnityEngine;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if(collision.gameObject.tag == "Power Up")
+        {
+            speed = 100;
+        }
         if(collision.gameObject.name == "Slow")
         {
-
+            speed = 80;
         }
 
 

@@ -158,7 +158,6 @@ MonoBehaviour:
     type: 3}
   Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
   Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
-  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!61 &73425153
 BoxCollider2D:
@@ -312,7 +311,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &82492540
 SpriteRenderer:
@@ -504,7 +502,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &241645074
 GameObject:
@@ -632,7 +629,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1001 &291489121
 PrefabInstance:
@@ -834,7 +830,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &426632168
 GameObject:
@@ -898,7 +893,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &426632171
 SpriteRenderer:
@@ -1171,7 +1165,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &519420028
 GameObject:
@@ -1320,7 +1313,6 @@ MonoBehaviour:
     type: 3}
   Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
   Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
-  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!212 &594138993
 SpriteRenderer:
@@ -1578,7 +1570,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &682267327
 GameObject:
@@ -1706,7 +1697,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &819511793
 GameObject:
@@ -1770,7 +1760,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &819511796
 SpriteRenderer:
@@ -1848,7 +1837,7 @@ GameObject:
   - component: {fileID: 831477002}
   - component: {fileID: 831477001}
   - component: {fileID: 831477000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: block_yellow (6)
   m_TagString: Yellow Block
   m_Icon: {fileID: 0}
@@ -1899,7 +1888,6 @@ MonoBehaviour:
     type: 3}
   Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
   Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
-  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!212 &831477002
 SpriteRenderer:
@@ -1977,7 +1965,7 @@ GameObject:
   - component: {fileID: 928481398}
   - component: {fileID: 928481397}
   - component: {fileID: 928481396}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: block_yellow (7)
   m_TagString: Yellow Block
   m_Icon: {fileID: 0}
@@ -2022,12 +2010,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447238bf1b0ab5f48888feb3bc8fc653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enlarge: {fileID: 0}
-  Laser: {fileID: 0}
-  Duplicate: {fileID: 0}
-  Catch: {fileID: 0}
-  Slow: {fileID: 0}
-  Player: {fileID: 0}
+  Enlarge: {fileID: 8689209392291120625, guid: a5f9dc8d5485448419e1e28b414e20ad, type: 3}
+  Laser: {fileID: 8118638703345539124, guid: 050bfa16e2c4f7f419416794587e7408, type: 3}
+  Duplicate: {fileID: 7133848517524194245, guid: 2004ec5380c8a174696ab21d5dece576,
+    type: 3}
+  Catch: {fileID: 649019352487408260, guid: 58cbf1c19e665ca4e9b3f60282fb2d25, type: 3}
+  Slow: {fileID: 3922994624028662833, guid: 8627689d9db3000418e25aff1fff1220, type: 3}
   whichpowerup: 0
 --- !u!212 &928481398
 SpriteRenderer:
@@ -2219,7 +2207,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &968772258
 GameObject:
@@ -2283,7 +2270,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &968772261
 SpriteRenderer:
@@ -2476,7 +2462,6 @@ MonoBehaviour:
     type: 3}
   Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
   Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
-  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!1 &1013736883
 GameObject:
@@ -2613,7 +2598,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1021349455
 BoxCollider2D:
@@ -2741,7 +2725,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1062734567
 BoxCollider2D:
@@ -2869,7 +2852,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1070975819
 BoxCollider2D:
@@ -2997,7 +2979,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1099158645
 BoxCollider2D:
@@ -3259,7 +3240,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &1120005288
 SpriteRenderer:
@@ -3361,7 +3341,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1132174517
 BoxCollider2D:
@@ -3580,7 +3559,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!114 &1162109773
 MonoBehaviour:
@@ -3599,7 +3577,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &1188363086
 GameObject:
@@ -3637,7 +3614,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1188363088
 BoxCollider2D:
@@ -3849,7 +3825,7 @@ GameObject:
   - component: {fileID: 1238528373}
   - component: {fileID: 1238528372}
   - component: {fileID: 1238528371}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: block_blue (7)
   m_TagString: Blue Block
   m_Icon: {fileID: 0}
@@ -3873,7 +3849,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1238528372
 BoxCollider2D:
@@ -4001,7 +3976,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1338533798
 BoxCollider2D:
@@ -4129,7 +4103,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1419481994
 BoxCollider2D:
@@ -4257,7 +4230,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1422976059
 BoxCollider2D:
@@ -4475,7 +4447,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &1544775771 stripped
 GameObject:
@@ -4624,7 +4595,6 @@ MonoBehaviour:
     type: 3}
   Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
   Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
-  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!1 &1705751621
 GameObject:
@@ -4663,7 +4633,6 @@ MonoBehaviour:
     type: 3}
   Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
   Slow: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
-  Player: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
   whichpowerup: 0
 --- !u!61 &1705751623
 BoxCollider2D:
@@ -4817,7 +4786,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &1759024013
 SpriteRenderer:
@@ -5009,7 +4977,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &1803435376
 GameObject:
@@ -5137,7 +5104,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!1 &1825348890
 GameObject:
@@ -5201,7 +5167,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &1825348893
 SpriteRenderer:
@@ -5280,7 +5245,7 @@ GameObject:
   - component: {fileID: 1831736595}
   - component: {fileID: 1831736594}
   - component: {fileID: 1831736596}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: racket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5474,7 +5439,6 @@ MonoBehaviour:
     type: 3}
   Catch: {fileID: 98358890373596530, guid: c79735fb628ca8745a08a51859fecbc5, type: 3}
   Slow: {fileID: 3559230816517781553, guid: 0d880580c1336bd409c332d784539811, type: 3}
-  Player: {fileID: 6713572150758623061, guid: bbd3ded880d498b458bbaefda9cfac23, type: 3}
   whichpowerup: 0
 --- !u!212 &1866112465
 SpriteRenderer:
@@ -5710,7 +5674,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &1936162320
 SpriteRenderer:
@@ -5812,7 +5775,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!61 &1972469273
 BoxCollider2D:
@@ -5995,7 +5957,7 @@ GameObject:
   - component: {fileID: 2039674947}
   - component: {fileID: 2039674946}
   - component: {fileID: 2039674945}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: block_yellow (8)
   m_TagString: Yellow Block
   m_Icon: {fileID: 0}
@@ -6045,7 +6007,6 @@ MonoBehaviour:
   Duplicate: {fileID: 0}
   Catch: {fileID: 0}
   Slow: {fileID: 0}
-  Player: {fileID: 0}
   whichpowerup: 0
 --- !u!212 &2039674947
 SpriteRenderer:

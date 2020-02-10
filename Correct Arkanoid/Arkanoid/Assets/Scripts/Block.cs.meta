@@ -3,7 +3,15 @@ guid: 447238bf1b0ab5f48888feb3bc8fc653
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Enlarge: {fileID: 8689209392291120625, guid: a5f9dc8d5485448419e1e28b414e20ad,
+      type: 3}
+  - Laser: {fileID: 8118638703345539124, guid: 050bfa16e2c4f7f419416794587e7408, type: 3}
+  - Duplicate: {fileID: 7133848517524194245, guid: 2004ec5380c8a174696ab21d5dece576,
+      type: 3}
+  - Catch: {fileID: 649019352487408260, guid: 58cbf1c19e665ca4e9b3f60282fb2d25, type: 3}
+  - Slow: {fileID: 3922994624028662833, guid: 8627689d9db3000418e25aff1fff1220, type: 3}
+  - Player: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

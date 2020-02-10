@@ -11,14 +11,13 @@ public class Block : MonoBehaviour
     public GameObject Duplicate;
     public GameObject Catch;
     public GameObject Slow;
-    public GameObject Player;
 
     public int whichpowerup;
 
     void OnCollisionEnter2D(Collision2D collisionInfo)
     {
 
-        whichpowerup = Random.Range(1 , 6);
+        whichpowerup = Random.Range(1 , 5);
         if (Enlarge != null)
         {
             if (whichpowerup == 1)
@@ -46,12 +45,6 @@ public class Block : MonoBehaviour
                 Instantiate(Slow, transform.position, Slow.transform.rotation);
 
             }
-            if (whichpowerup == 6)
-            {
-                Instantiate(Player, transform.position, Player.transform.rotation);
-
-            }
-
         }
 
 
