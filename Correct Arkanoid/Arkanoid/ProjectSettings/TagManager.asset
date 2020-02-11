@@ -11,6 +11,11 @@ TagManager:
   - Green Block
   - Pink Block
   - Big Boy Block
+  - Enlarge
+  - Slow
+  - Duplicate
+  - Laser
+  - Catch
   layers:
   - Default
   - TransparentFX

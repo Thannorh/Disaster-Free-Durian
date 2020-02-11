@@ -18,7 +18,7 @@ public class BallScript : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "racket")
+        if (collision.gameObject.name == "racket")
         {
             //Calculate hit Value (aka, the x value we will need to change direction)
             float hitValue = Ricochet(transform.position, collision.transform.position, collision.collider.bounds.size.x);
@@ -27,7 +27,7 @@ public class BallScript : MonoBehaviour
             Vector2 Direction = new Vector2(hitValue, 1).normalized;
             GetComponent<Rigidbody2D>().velocity = Direction * Speed;
         }
-        
+
     }
 
     //This function is supposed to replicate the ricochet used in Arkanoid

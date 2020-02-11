@@ -10,23 +10,23 @@ public class End : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Red Block" || collision.gameObject.tag == "Blue Block" || collision.gameObject.tag == "Yellow Block")
+        if (collision.gameObject.tag == "Red Block" || collision.gameObject.tag == "Blue Block" || collision.gameObject.tag == "Yellow Block")
         {
             EndCounter++;
-        } 
+        }
 
-        if(EndCounter == 39)
+        if (EndCounter == 55)
         {
             SceneManager.LoadScene(NextScene, LoadSceneMode.Single);
         }

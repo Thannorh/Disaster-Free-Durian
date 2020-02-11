@@ -2,43 +2,43 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-    // Start is called before the first frame update
-    public class Ball : MonoBehaviour
+// Start is called before the first frame update
+public class Ball : MonoBehaviour
+{
+    float hitFactor(Vector2 ballPos, Vector2 racketPos,
+        float racketWidth)
     {
-        float hitFactor(Vector2 ballPos, Vector2 racketPos,
-            float racketWidth)
-        {
-            // ascii art:
-            //
-            // 1  -0.5  0  0.5   1  <- x value
-            // ===================  <- racket
-            //
-            return (ballPos.x - racketPos.x) / racketWidth;
-        }
-        // Movement Speed
-        public float speed = 100.0f;
-    
+        // ascii art:
+        //
+        // 1  -0.5  0  0.5   1  <- x value
+        // ===================  <- racket
+        //
+        return (ballPos.x - racketPos.x) / racketWidth;
+    }
+    // Movement Speed
+    public float speed = 100.0f;
+
 
     // Use this for initialization
     void Start()
-        {
-            GetComponent<Rigidbody2D>().velocity = Vector2.up * speed;
-        }
+    {
+        GetComponent<Rigidbody2D>().velocity = Vector2.up * speed;
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Power Up")
+        if (collision.gameObject.tag == "Power Up")
         {
             speed = 100;
         }
-        if(collision.gameObject.name == "Slow")
+        if (collision.gameObject.name == "Slow")
         {
             speed = 80;
         }
 
 
 
-        if (collision.gameObject.name == "racket")
+        if (collision.gameObject.tag == "Ship")
         {
             float x = hitFactor(transform.position,
                             collision.transform.position,
@@ -52,4 +52,3 @@ using UnityEngine;
 
 
 }
-

@@ -17,7 +17,7 @@ public class Block : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collisionInfo)
     {
 
-        whichpowerup = Random.Range(1 , 5);
+        whichpowerup = Random.Range(1, 16);
         if (Enlarge != null)
         {
             if (whichpowerup == 1)

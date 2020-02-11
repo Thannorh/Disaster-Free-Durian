@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8398010211867275793}
   m_Layer: 8
   m_Name: Enlarge
-  m_TagString: Untagged
+  m_TagString: Enlarge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009d96cf8f49d0c469690377a7d6b4c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  racket: {fileID: 0}
-  VausSpacecraftLarge: {fileID: 0}
-  Object: {fileID: 0}
+  racket: {fileID: 21300000, guid: 5e3dea69b3310734f91131883e7b8e98, type: 3}
+  VausSpacecraftLarge: {fileID: 21300000, guid: 6402e3a24c5d1794ea6c459280b0d711,
+    type: 3}
+  Object: {fileID: 4437519592371971936, guid: 5f281b6ddf2dcc147a9f5f3876870ab2, type: 3}

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7613627098031696706}
   m_Layer: 8
   m_Name: Catch
-  m_TagString: Untagged
+  m_TagString: Catch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

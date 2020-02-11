@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8345638183398460249}
   - component: {fileID: 8345638183398460070}
   - component: {fileID: -3937285995170313820}
-  - component: {fileID: 1426158272046468220}
+  - component: {fileID: 5129622234702069187}
   m_Layer: 9
   m_Name: Big Boy Block
   m_TagString: Big Boy Block
@@ -109,7 +109,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.15}
   m_EdgeRadius: 0
---- !u!114 &1426158272046468220
+--- !u!114 &5129622234702069187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,13 +118,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8345638183398460071}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 447238bf1b0ab5f48888feb3bc8fc653, type: 3}
+  m_Script: {fileID: 11500000, guid: 927dbd4ef969a66489b4a4e1e63fa98c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enlarge: {fileID: 8689209392291120625, guid: a5f9dc8d5485448419e1e28b414e20ad, type: 3}
-  Laser: {fileID: 8118638703345539124, guid: 050bfa16e2c4f7f419416794587e7408, type: 3}
-  Duplicate: {fileID: 7133848517524194245, guid: 2004ec5380c8a174696ab21d5dece576,
-    type: 3}
-  Catch: {fileID: 649019352487408260, guid: 58cbf1c19e665ca4e9b3f60282fb2d25, type: 3}
-  Slow: {fileID: 3922994624028662833, guid: 8627689d9db3000418e25aff1fff1220, type: 3}
-  whichpowerup: 0
+  HitTimes: 0
