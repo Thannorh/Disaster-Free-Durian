@@ -16,6 +16,7 @@ TagManager:
   - Duplicate
   - Laser
   - Catch
+  - Ship
   layers:
   - Default
   - TransparentFX

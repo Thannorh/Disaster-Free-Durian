@@ -202,6 +202,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: racket
       objectReference: {fileID: 0}
+    - target: {fileID: 4437519592371971936, guid: 5f281b6ddf2dcc147a9f5f3876870ab2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ship
+      objectReference: {fileID: 0}
     - target: {fileID: 4437519592371971963, guid: 5f281b6ddf2dcc147a9f5f3876870ab2,
         type: 3}
       propertyPath: PlayerReset
@@ -216,6 +221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437519592371971965, guid: 5f281b6ddf2dcc147a9f5f3876870ab2,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4437519592371971966, guid: 5f281b6ddf2dcc147a9f5f3876870ab2,
         type: 3}
@@ -5032,6 +5042,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5525658629942016390, guid: 129da26e79d353047a10011d52e46734,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5525658629942016390, guid: 129da26e79d353047a10011d52e46734,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5594949087101970525, guid: 129da26e79d353047a10011d52e46734,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5116,6 +5136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620641367498671121, guid: 129da26e79d353047a10011d52e46734,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ship
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 129da26e79d353047a10011d52e46734, type: 3}
