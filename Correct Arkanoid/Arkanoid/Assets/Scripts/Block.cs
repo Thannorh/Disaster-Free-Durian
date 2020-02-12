@@ -12,7 +12,7 @@ public class Block : MonoBehaviour
     public GameObject Catch;
     public GameObject Slow;
 
-    public int whichpowerup;
+    private int whichpowerup;
 
     void OnCollisionEnter2D(Collision2D collisionInfo)
     {

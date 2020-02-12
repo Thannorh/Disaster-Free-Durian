@@ -17,16 +17,16 @@ public class Racket : MonoBehaviour
         {
             GetComponent<Rigidbody2D>().velocity = Vector2.right * speed;
         }
-        if (transform.position.x == ResetPoint)
-        {
-            transform.position = new Vector2(ResetPosition, transform.position.y);
-        }
+        //if (transform.position.x == ResetPoint)
+        //{
+        //    transform.position = new Vector2(ResetPosition, transform.position.y);
+        //}
     }
-    private void Update()
-    {
-        if (transform.position.x == ResetPoint)
-        {
-            transform.position = new Vector2(ResetPosition, transform.position.y);
-        }
-    }
+    //private void Update()
+    //{
+    //    if (transform.position.x == ResetPoint)
+    //    {
+    //        transform.position = new Vector2(ResetPosition, transform.position.y);
+    //    }
+    //}
 }
